@@ -8,7 +8,16 @@ app.get('/', (request, response) => {
 });
 
 app.get('/bsm', (request, response) => {
-    response.send('Mentalidades:<br>Persistência<br>Responsabilidade Pessoal<br>Orientação ao Futuro<br>Mentalidade de Crescimento<br><br>Habilidades:<br>Trabalho em Equipe<br>Atenção aos Detalhes<br>Proatividade<br>Comunicação');
+    response.send('Mentalidades:<br>'+
+    'Persistência<br>'+
+    'Responsabilidade Pessoal<br>'+
+    'Orientação ao Futuro<br>'+
+    'Mentalidade de Crescimento<br>'+
+    '<br>Habilidades:<br>'+
+    'Trabalho em Equipe<br>'+
+    'Atenção aos Detalhes<br>'+
+    'Proatividade<br>'+
+    'Comunicação');
 });
 
 app.get('/learning', (request, response) => {
